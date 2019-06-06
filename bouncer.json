@@ -1,0 +1,15 @@
+{
+    "host" : "portland.echoes.wiki",
+    "port" : 2019,
+    "login" : "CHANGE_ME",
+    "password" : "CHANGE_ME",
+    "wiki_base" : "http://portland.echoes.wiki",
+    "active_character_page" : "/index.php?title=Category:Active",
+    "active_character_regex" : "<a href=\"(/Character:.*)\" title=",
+    "on_mush_as_regex" : "on MUX as<div class=\"r\">([^<]+)</div>",
+    "finger_regex" : "^\\.+\\| (.+)'s \\+Finger \\|\\.+$",
+    "recent_login_regex" : "^(Off: \\d+[^M*]\\s)|(Idle:)",
+    "on_connect" : "@set me=!ANSI",
+    "on_disconnect" : "@set me=ANSI",
+    "finger_command" : "+finger"
+}
